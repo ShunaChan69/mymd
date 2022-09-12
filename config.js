@@ -1,7 +1,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 global.owner = [
-  ['62895411954396', 'Acel', true],
+  ['62895411954396', 'Mufdzz', true],
   // [number, dia creator/owner?, dia developer?]
   JSON.parse(fs.readFileSync('./src/owner.json'))
 ] // Put your number here
