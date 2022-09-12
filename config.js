@@ -18,7 +18,7 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
 //======= 'https://website': 'apikey' =======//
   'https://api.lolhuman.xyz': 'Papah-Chan',
-  'https://api.xteam.xyz': 'benniismaelapikey',
+  'https://api.xteam.xyz': 'NezukoTachibana281207',
   'https://violetics.pw': '0b55-fada-712f'
 }
 
