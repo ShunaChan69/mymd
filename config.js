@@ -1,7 +1,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 global.owner = [
-  ['6285346545126', 'Acel', true],
+  ['62895411954396', 'Acel', true],
   // [number, dia creator/owner?, dia developer?]
   JSON.parse(fs.readFileSync('./src/owner.json'))
 ] // Put your number here
@@ -25,8 +25,8 @@ global.APIKeys = { // APIKey Here
 //=========== Sticker WM =============//
 const stick = JSON.parse(fs.readFileSync("lib/exif.json"))
 if (stick.spackname == '' || stick.sauthor == '') {
-  var sticker_name = 'Made with WeA Bot'
-  var sticker_author = '𝖻𝗂𝗍.𝗅𝗒/𝖠𝖼𝖾𝗅𝗅𝖢𝗈𝗆𝖾𝗅'
+  var sticker_name = 'WhatsApp Bot'
+  var sticker_author = '@ Ordiston'
 } else {
   var sticker_name = stick.spackname
   var sticker_author = stick.sauthor
